@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navigation{
+      display: flex;
+      justify-content: space-around;
+      background-color: #101010;
+      height: 50px;
+  }
+  
+  .navigation a{
+      color: aliceblue;
+      display: table;
+      float: left;
+      padding: 20px 20px 0px 20px;
+      background-color: #101010;
+      text-align: center;
+  }
+  
+  .navigation a li{
+      vertical-align: middle;
+      display: table-cell;
+      font-size: 10px;
+      color: white;
+  }
+  
+  .navigation a:hover{
+      background-color: gray;
+      color: #101010;
+  }
+  .leftimg {
+      float:left; /* Выравнивание по левому краю */
+      margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+     }
+  footer {
+      position: fixed; /* Фиксированное положение */
+      left: 0; bottom: 0; /* Левый нижний угол */
+      padding: 10px; /* Поля вокруг текста */
+      background: #39b54a; /* Цвет фона */
+      color: #fff; /* Цвет текста */
+      width: 100%; /* Ширина слоя */
+     }
